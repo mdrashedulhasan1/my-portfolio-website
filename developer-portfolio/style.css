@@ -1,0 +1,74 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 30px;
+    
+}
+.name-highlite{
+    color: tomato;
+}
+.half-width{
+    width:40%;
+    float: left;
+   margin-left: 5%;
+   padding-left: 2%;
+}
+ .half-width img{
+    width: 100%;
+
+}
+.top-banner{
+    background-repeat: no-repeat;
+    background-image: url("Image/top-banner.png");
+    border: 2px solid red;
+}
+section{
+    height: 600px;
+}
+.Registration{
+    font-weight: 800;
+    font-size: 10px;
+    text-decoration: none;
+    background-color: #007180;
+    background-image: linear-gradient(30deg,red,green);
+    padding:10px 20px;
+    border-radius: 10px;
+}
+.dream-area{
+    background-repeat: no-repeat;
+    background-image: url("Image/dream-bg.png");
+    border: 2px solid #66ff00;
+    background-position: right;
+}
+.border{
+
+
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 80%;
+    background-color: white;
+}
+.info{
+    height: 400px;
+    
+    background-image: url("Image/exp-bg.png");
+    background-repeat: no-repeat;
+    border: 2px solid red;
+    background-position: left;
+    
+
+}
+.tapu1{
+        border-left:7px solid;
+        
+        border-image: linear-gradient(30deg,blue,red);
+        border-image-slice: 1;
+}
+
+.tapu2{
+    border-left:7px solid;
+    
+    border-image: linear-gradient(30deg,blue,#00e1ff);
+    border-image-slice: 1;
+}
